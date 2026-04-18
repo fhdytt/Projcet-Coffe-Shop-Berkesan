@@ -27,8 +27,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);
     <?php else: ?>
         <div class="box success">
             <h2>✅ Koneksi Berhasil!</h2>
-            <p>Server berhasil terhubung ke database: <strong><?= $dbname ?></strong></p>
-            <p>Sekarang lanjut ke <strong>Project</strong></p>
+            <p>Selamat Datang Di Web Berkesan</p>
         </div>
     <?php endif; ?>
 
